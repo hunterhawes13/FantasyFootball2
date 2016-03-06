@@ -1,0 +1,136 @@
+body {
+  background-size: 3%;
+  background-image:url('http://i556.photobucket.com/albums/ss9/somethingnewnow/ICONS/SNNICONS100-1.gif')
+}
+
+.one {
+    width:repeat;
+    height:repeat; 
+   filter: gray; /* IE6-9 */
+  filter: grayscale(0); /* Firefox 35+ */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  shadow:3px 3px black;
+  background-color:blue;
+  width:vw;
+  height:160px;
+}
+
+.one:hover { filter: gray; /* IE6-9 */
+  filter: grayscale(0); /* Firefox 35+ */
+  -webkit-filter: grayscale(.1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+h1 {
+  color:white;
+  text-shadow: 3px 3px black;
+}
+
+button {	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+button:hover {
+	background-color:#eb675e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#RB {
+	background-color:RED;
+	
+}
+#RB:hover {
+	background-color:grey;
+}
+#RB:active {
+	position:relative;
+	top:1px;
+}
+
+#WR {
+	background-color:BLUE;
+	
+}
+#WR:hover {
+	background-color:grey;
+}
+#WR:active {
+	position:relative;
+	top:1px;
+}
+
+#TE {
+	background-color:Green;
+	
+}
+#TE:hover {
+	background-color:grey;
+}
+#TE:active {
+	position:relative;
+	top:1px;
+}
+
+#QB {
+	background-color:Purple;
+	
+}
+#QB:hover {
+	background-color:grey;
+}
+#QB:active {
+	position:relative;
+	top:1px;
+}
+
+.best {
+  width:180px;
+  background-color:blue;
+ opacity:.9;
+  height:155px;
+  position: absolute;
+  Position: fixed;
+  top: 10px;
+    left: 10px;
+  color:white;
+  font-family:arial; 
+  text-align:left;
+}
+
+.best:hover {
+  background-color:black;
+}
+
+h2{
+  font-size: 100%;
+}
+
+.worst {
+  width:180px;
+  background-color:red;
+ opacity:.9;
+  height:120px;
+  position: absolute;
+  Position: fixed;
+  top: 170px;
+    left: 10px;
+  color:white;
+  font-family:arial; 
+  text-align:left;
+}
+
+.worst:hover {
+  background-color:black;
+}
